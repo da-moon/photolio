@@ -23,14 +23,7 @@ const ContentContainer = styled.div`
 
 const ContactMe = () => (
   <ContentContainer>
-    <h1>Feel free to contact me 📫</h1>
-    <p>
-      Just send me a casual DM on instagram or twitter to get in touch with me.
-    </p>
-    <p>
-      Alternatively, you can also join my Discord and DM me there. My Discord
-      username is <Embed>zekrotja</Embed>.
-    </p>
+    <h1>Feel free to contact us 📫</h1>
     <IconsList>
       <LinkTwitter />
       <LinkInstagram />
@@ -38,7 +31,7 @@ const ContactMe = () => (
     </IconsList>
     <p>
       If you prefer, you can also send me a mail to{' '}
-      <Embed>contact@zekro.de</Embed>.
+      <Embed>contact@krphotography</Embed>.
     </p>
     <IconsList>
       <LinkMail />
@@ -46,6 +39,7 @@ const ContactMe = () => (
   </ContentContainer>
 );
 
+// NOTE: commented out
 const ContentUsage = () => (
   <ContentContainer>
     <h1>Content Usage 🖼️</h1>
@@ -74,7 +68,7 @@ export const ContactRoute: React.FC = () => {
     <PaddingContainer>
       <Container>
         <ContactMe />
-        <ContentUsage />
+        // <ContentUsage />
       </Container>
     </PaddingContainer>
   );

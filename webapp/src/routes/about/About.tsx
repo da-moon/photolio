@@ -1,12 +1,12 @@
 import {
+  // LinkGithub,
+  // LinkSpotify,
+  // LinkUnsplash,
   LinkDeviantart,
-  LinkGithub,
   LinkInstagram,
   LinkMail,
-  LinkSpotify,
   LinkTiktok,
   LinkTwitter,
-  LinkUnsplash,
   LinkYoutube,
 } from 'components/ContactLinks';
 
@@ -60,36 +60,29 @@ export const AboutRoute: React.FC = () => {
         <Image url="assets/avatar.jpg" />
         <h2>Hey 👋</h2>
         <p>
-          My name is Ringo (but I'm also known as zekro) and I'm {AGE} old.
-          Thank you for being interested in my work! I'm actually working as a{' '}
-          <ALink href="https://github.com/zekrotja">backend developer</ALink> in
-          germany, but in the middle of 2021, I discovered photography as
-          another passion of mine.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum vestibulum velit non posuere. Donec gravida blandit tortor quis facilisis. Donec quis auctor purus, nec sodales magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur a arcu euismod, ultrices quam ac, sollicitudin purus. Mauris et mi ipsum. Sed eget massa sit amet velit vestibulum ornare eu vel nulla.
         </p>
         <p>
-          Now, I primarily focus on expressing myself, my feelings and my
-          perspectives in photography and photo editing. As you can see in my
-          Work, I'm mainly interested in street photography but I am really
-          excited to discover and getting into more topics like portrait, car,
-          architecture and wildlife photography in the future Now, I am
-          primarily focussed on capturing great moments around the world,
-          expressing my point of view and generally learning new stuff in the
-          world of photography. As you can see, I am currently mostly interested
-          in wildlife, nature, architectural and street photography, but I also
-          want to discover many more topics like portrait, car, event or astro
-          photography.
+          In et magna quis mi consectetur aliquam. Mauris
+          hendrerit urna ultrices nulla condimentum hendrerit. Nunc vitae
+          vulputate libero. Nullam tincidunt, purus a egestas efficitur,
+          arcu nisl bibendum sem, et mattis libero est vel eros.
+          Phasellus in odio ut ante rutrum mollis. Phasellus elit mauris,
+          bibendum ac aliquet et, lacinia at quam. Morbi at libero id
+          est eleifend placerat non vitae tortor. Suspendisse potenti.
+          Phasellus vel lobortis sapien, vitae tempor lectus.
         </p>
         <h2>Get to know me ✉️</h2>
         <IconsList>
           <LinkMail />
           <LinkInstagram />
-          <LinkUnsplash />
           <LinkDeviantart />
           <LinkTwitter />
           <LinkYoutube />
-          <LinkGithub />
-          <LinkSpotify />
           <LinkTiktok />
+          // <LinkUnsplash />
+          // <LinkGithub />
+          // <LinkSpotify />
         </IconsList>
       </TextContainer>
     </PaddingContainer>
