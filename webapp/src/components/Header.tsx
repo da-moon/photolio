@@ -99,7 +99,7 @@ export const Header: React.FC = () => {
   return (
     <Container>
       <Icon onClick={() => navigate('/')}>
-        <h1>zekro</h1>
+        <h1>KR</h1>
         <h2>Photography</h2>
       </Icon>
       <Controls>

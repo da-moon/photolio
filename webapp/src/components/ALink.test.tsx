@@ -2,7 +2,7 @@ import { ALink } from './ALink';
 import { renderElement } from 'test/helper';
 
 it('Should rener a _blank link', () => {
-  const href = 'https://zekro.de/';
+  const href = 'https://krphotography.com/';
   const view = renderElement<HTMLLinkElement>(<ALink href={href} />, 'alink');
   expect(view).not.toBeNull();
   expect(view).toHaveProperty('href', href);
@@ -10,7 +10,7 @@ it('Should rener a _blank link', () => {
 });
 
 it('Should rener a _self link', () => {
-  const href = 'https://zekro.de/';
+  const href = 'https://krphotography.com/';
   const view = renderElement<HTMLLinkElement>(
     <ALink href={href} self />,
     'alink'
@@ -21,7 +21,7 @@ it('Should rener a _self link', () => {
 });
 
 it('Should rener a link with content', () => {
-  const href = 'https://zekro.de/';
+  const href = 'https://krphotography.com/';
   const content = 'Some content';
   const view = renderElement<HTMLLinkElement>(
     <ALink href={href} self>
@@ -34,7 +34,7 @@ it('Should rener a link with content', () => {
 });
 
 it('Should rener a link with children', () => {
-  const href = 'https://zekro.de/';
+  const href = 'https://krphotography.com/';
   const content = 'Some content';
   const view = renderElement<HTMLLinkElement>(
     <ALink href={href} self>

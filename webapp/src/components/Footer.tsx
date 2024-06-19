@@ -36,13 +36,13 @@ export const Footer: React.FC = () => {
   return (
     <Container>
       <Links>
-        <ALink href="https://www.zekro.de/imprint">Imprint</ALink>
-        <Separator />
-        <ALink href="https://www.zekro.de">Homepage</ALink>
-        <Separator />
-        <ALink href="https://github.com/zekrotja/photolio">GitHub</ALink>
+        // <ALink href="https://www.zekro.de/imprint">Imprint</ALink>
+        // <Separator />
+        <ALink href="https://www.krphotography.com">Homepage</ALink>
+        // <Separator />
+        // <ALink href="https://github.com/zekrotja/photolio">GitHub</ALink>
       </Links>
-      <Small>© {currentYear} Ringo Hoffmann</Small>
+      <Small>© {currentYear} KR Photography</Small>
     </Container>
   );
 };
